@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
         }
         val isignup = Intent(this,RegistrationActivity::class.java)
         btnsignup.setOnClickListener {
-            startActivity(ilogin)
+            startActivity(isignup)
         }
     }
 }
